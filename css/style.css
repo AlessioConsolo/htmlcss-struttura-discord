@@ -156,28 +156,31 @@ div[class^="main-row"] {
   max-width: 100%;
   background-color: rgba(35, 39, 42, 255);
   height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1px;
+  align-items: end;
 }
 
 .footer-row {
   display: flex;
   flex-wrap: wrap;
   width: 50%;
-  margin: 0 auto;
+  margin: 1px auto;
   background-color: rgba(127, 255, 212, 255);
   justify-content: space-between;
 }
 
 .footer-col1 {
-  border: 1px dashed black;
   margin: 15px 0;
 }
 
 .footer-col2 {
-  border: 1px dashed black;
   margin: 15px 0;
 }
 
 .footer-content {
   background-color: rgba(255, 182, 193, 255);
+  border: 1px dashed black;
   padding: 4px;
 }
