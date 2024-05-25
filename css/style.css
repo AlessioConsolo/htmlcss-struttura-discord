@@ -16,7 +16,6 @@
   display: flex;
   flex-wrap: wrap;
   width: 50%;
-  height: 50px;
   margin: 0 auto;
 }
 
@@ -50,4 +49,25 @@ ul {
 
 li {
   display: inline-block;
+}
+
+/* MAIN */
+
+.main-container {
+  max-width: 100%;
+}
+
+.main-container > .row {
+  background-color: rgba(0, 0, 139, 255);
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.col {
+  margin: 18px auto;
+  background-color: rgba(238, 130, 238, 255);
+  width: 40%;
+  height: 180px;
 }
